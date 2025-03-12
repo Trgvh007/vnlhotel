@@ -35,3 +35,5 @@ Route::get('/sach/theloai/{id}','App\Http\Controllers\ViDuLayoutController@thelo
 Route::get('detail_sach/{id}','App\Http\Controllers\ViDuLayoutController@chitiet');
 
 Route::get('/vidu','App\Http\Controllers\ViDuController@vidu');
+Route::get('/exam','App\Http\Controllers\ViDuController@exam');
+    

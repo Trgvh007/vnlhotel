@@ -23,6 +23,13 @@ class ViDuController extends Controller
         $name = "HUB";
         return view('vidu',compact("name"));
         }
+      
+
+function exam(){
+$name = "Cac ban nha";
+return view('exam',["name"=>$name]);
+
+}
 }
 
 
