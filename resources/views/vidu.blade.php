@@ -1,0 +1,1 @@
+Xin chào {{$name}}
