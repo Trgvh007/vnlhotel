@@ -33,3 +33,6 @@ Route::get('/sach','App\Http\Controllers\ViDuLayoutController@sach');
 Route::get('/sach/theloai/{id}','App\Http\Controllers\ViDuLayoutController@theloai');
 
 Route::get('detail_sach/{id}','App\Http\Controllers\ViDuLayoutController@chitiet');
+
+Route::get('/exam','App\Http\Controllers\ViDuController@exam');
+    

@@ -18,7 +18,13 @@ class ViDuController extends Controller
     $ket_qua = $so_a+$so_b;
     return "Kết quả là: ".$ket_qua;
 }
-        
+      
+
+function exam(){
+$name = "Cac ban nha";
+return view('exam',["name"=>$name]);
+
+}
 }
 
 
