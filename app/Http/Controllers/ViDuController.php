@@ -26,7 +26,7 @@ class ViDuController extends Controller
       
 
 function exam(){
-$name = "Cac ban nha";
+$name = "Hi ban nha";
 return view('exam',["name"=>$name]);
 
 }
